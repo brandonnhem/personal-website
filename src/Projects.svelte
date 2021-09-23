@@ -65,7 +65,7 @@
     }
 
     #arrow {
-        margin: 2px 0 0 6px;
+        margin: 0.125rem 0 0 0.375rem;
     }
 
     a {

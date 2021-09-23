@@ -67,7 +67,7 @@
     }
     
     h3 {
-        width: 60px;
+        width: 3.75rem;
     }
 
     .experiences {
@@ -75,30 +75,30 @@
     }
 
     .divider {
-        width: 3px;
-        height: 313px;
+        width: 0.1875rem;
+        height: 19.5625rem;
         position: absolute;
         background-color: hsl(0, 0%, 0%);
-        border-radius: 10px;
-        left: 130px;
+        border-radius: 0.625rem;
+        left: 8.125rem;
     }
 
     .divider-1 {
-        width: 45px;
-        height: 3px;
+        width: 2.8125rem;
+        height: 0.1875rem;
         position: absolute;
         background-color: hsl(0, 0%, 0%);
-        border-radius: 10px;
-        top: 64px;
+        border-radius: 0.625rem;
+        top: 4rem;
     }
     
     .divider-2 {
-        width: 60px;
-        height: 3px;
+        width: 3.75rem;
+        height: 0.1875rem;
         position: absolute;
         background-color: hsl(0, 0%, 0%);
-        border-radius: 10px;
-        top: 246px;
+        border-radius: 0.625rem;
+        top: 15.375rem;
     }
 
     .advanced {
@@ -111,7 +111,7 @@
         display: grid;
         grid-template-columns: auto auto;
         column-gap: 1rem;
-        margin-left: 60px;
+        margin-left: 3.75rem;
     }
 
     .intermediate {
@@ -126,7 +126,7 @@
         grid-template-rows: 50% 50%;
         column-gap: 1rem;
         row-gap: 2rem;
-        margin-left: 60px;
+        margin-left: 3.75rem;
     }
 
     .beginner {
@@ -138,6 +138,6 @@
         display: grid;
         grid-template-columns: auto auto auto;
         column-gap: 1rem;
-        margin-left: 60px;
+        margin-left: 3.75rem;
     }
 </style>

@@ -17,13 +17,13 @@
 
     .about-me {
         background-color: var(--about-bg-color);
-        width: 259px;
-        height: 112px;
-        padding: 11px 22px;
+        width: 16.1875rem;
+        height: 7rem;
+        padding: 0.6875rem 1.375rem;
         border-radius: 2rem 0 2rem 2rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 39px;;
+        margin-left: 2.4375rem;
     }
 </style>
