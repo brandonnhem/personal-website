@@ -15,7 +15,7 @@
             <ProjectSlide projectName="Github Grabber" 
                           githubLink="https://github.com/brandonnhem/github-profile-grabber"
                           liveLink="https://github-grabber.vercel.app/" 
-                          backgroundLink="/images/mobile_light.png" />
+                          backgroundLink="/images/github_grabber.png" />
         </div>
         <a class="cta-btn" href="https://github.com/brandonnhem/">
             <p>View More</p>
