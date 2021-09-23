@@ -30,6 +30,6 @@
         position: absolute;
         top: -9.25rem;
         left: 13rem;
-        transform: rotate(-30deg);
+        transform: scale(1.5) rotate(38deg);
     }
 </style>
