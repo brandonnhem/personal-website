@@ -34,11 +34,11 @@
 
     h2 {
         color: hsl(100, 100%, 100%);
-        margin: 0 8px;
-        padding-top: 129px;
+        margin: 0 0.5rem;
+        padding-top: 8.0625rem;
     }
 
     .links {
-        margin: 0 0 12px 62px;
+        margin: 0 0 0.75rem 3.875rem;
     }
 </style>
