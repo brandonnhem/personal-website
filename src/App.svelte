@@ -27,9 +27,66 @@
 	
 	.blob {
         position: absolute;
-        left: 85vw;
-        top: 42vh;
+        left: 20rem;
+        top: 23rem;
         transform: scale(1.6);
         z-index: 3;
     }
+
+	/* GALAXY S5 */
+	@media only screen and (min-width: 360px) {
+		.blob {
+			top: 22rem;
+			left: 19rem;
+		}
+	}
+
+	/* IPHONE 6/7/8 */
+	@media only screen and (min-width: 375px) {
+		.blob {
+			top: 22rem;
+		}
+	}
+
+	/* IPHONE X */
+	@media only screen
+		   and (min-width: 375px)
+		   and (min-height: 812px) {
+		.blob {
+			top: 22rem;
+			left: 20rem;
+		}
+	}
+	
+	@media only screen and (min-width: 393px) {
+        .blob {
+			left: 21rem;
+		}
+    }
+
+	/* PIXEL 2 */
+	@media only screen and (min-width: 411px) {
+		.blob {
+			top: 22rem;
+			left: 22rem;
+		}
+	}
+	
+	/* PIXEL 2 XL */
+	@media only screen
+	       and (min-width: 411px)
+		   and (min-height: 823px) {
+		.blob {
+			top: 22rem;
+			left: 22rem;
+		}
+	}
+
+	/* IPHONE 6+/7+/8+ */
+	@media only screen and (min-width: 414px) {
+		.blob {
+			top: 23rem;
+			left: 22rem;
+		}
+	}
 </style>
