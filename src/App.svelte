@@ -58,6 +58,12 @@
 		}
 	}
 	
+	@media only screen and (min-width: 393px) {
+        .blob {
+			left: 21rem;
+		}
+    }
+
 	/* PIXEL 2 */
 	@media only screen and (min-width: 411px) {
 		.blob {

@@ -102,6 +102,17 @@
         }
     }
 
+    @media only screen and (min-width: 393px) {
+        .cta-btn {
+            margin: 0.8125rem 2rem 1rem 13.5625rem;
+            width: max-content;
+        }
+
+        #wave {
+            top: -5.3125rem;
+        }
+    }
+
     @media only screen and (min-width: 411px) {
         .cta-btn {
             margin: 0.8125rem 2rem 1rem 14.0625rem;

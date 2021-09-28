@@ -48,11 +48,18 @@
             margin-left: 1.5625rem;
         }
     }
-
+    
+    @media only screen and (min-width: 393px) {
+        .about-me {
+            margin-left: 3.625rem;
+        }
+    }
+    
     /* PIXEL 2 */
     @media only screen and (min-width: 411px) {
         .about-me {
             margin-left: 4.75rem;
         }
     }
+
 </style>
