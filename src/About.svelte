@@ -39,4 +39,20 @@
         align-items: center;
         margin-left: 2.4375rem;
     }
+
+    /* GALAXY S5 */
+    @media only screen 
+           and (device-width: 360px)
+           and (device-height: 640px) {
+        .about-me {
+            margin-left: 1.5625rem;
+        }
+    }
+
+    /* PIXEL 2 */
+    @media only screen and (min-width: 411px) {
+        .about-me {
+            margin-left: 4.75rem;
+        }
+    }
 </style>

@@ -93,4 +93,22 @@
         text-decoration: none;
         color: hsl(100, 100%, 100%);
     }
+
+    @media only screen
+           and (device-width: 360px)
+           and (device-height: 640px) {
+        .cta-btn {
+            margin: 0.8125rem 2rem 1rem 11.0625rem;
+        }
+    }
+
+    @media only screen and (min-width: 411px) {
+        .cta-btn {
+            margin: 0.8125rem 2rem 1rem 14.0625rem;
+        }
+
+        #wave {
+            top: -5.375rem;
+        }
+    }
 </style>
