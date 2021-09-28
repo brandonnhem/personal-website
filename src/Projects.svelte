@@ -1,8 +1,6 @@
 <script>
     import SectionTitle from './components/SectionTitle.svelte';
     import ProjectSlide from './components/ProjectSlide.svelte';
-
-    //TODO: make the carousel scrollable
 </script>
 
 <section>
@@ -12,10 +10,28 @@
     <div class="projects">
         <SectionTitle titleName="PROJECTS"/>
         <div class="carousel">
-            <ProjectSlide projectName="Github Grabber" 
+            <ProjectSlide projectName="Carpool App" 
+                          githubLink="https://github.com/byteMe-CSULB/710" 
+                          backgroundLink="/images/710.png" />
+            <ProjectSlide projectName="Server Match" 
+                          githubLink="https://github.com/CECS-445-Project/ServerMatch"
+                          backgroundLink="/images/server_match.png" />
+            <ProjectSlide projectName="Tip Calc-ulator" 
+                          githubLink="https://github.com/brandonnhem/Tip-Calculator"
+                          liveLink="https://brandonnhem.github.io/Tip-Calculator/"
+                          backgroundLink="/images/splitter.png" />
+            <ProjectSlide projectName="Github Grabber"
                           githubLink="https://github.com/brandonnhem/github-profile-grabber"
                           liveLink="https://github-grabber.vercel.app/" 
                           backgroundLink="/images/github_grabber.png" />
+            <ProjectSlide projectName="Price Adjuster"
+                          githubLink="https://github.com/brandonnhem/interactive-pricing-component-challenge"
+                          liveLink="https://interactive-pricing-component-challenge.vercel.app/" 
+                          backgroundLink="/images/interactive_pricing.png" />
+            <ProjectSlide projectName="Simon Game" 
+                          githubLink="https://github.com/brandonnhem/SimonGame"
+                          liveLink="https://brandonnhem.github.io/SimonGame/" 
+                          backgroundLink="/images/simon.png" />
         </div>
         <a class="cta-btn" href="https://github.com/brandonnhem/">
             <p>View More</p>
@@ -47,6 +63,11 @@
 
     .carousel {
         padding-top: 1.8125rem;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        overflow-x: scroll;
+        overflow-y: hidden;
     }
 
     .cta-btn {
