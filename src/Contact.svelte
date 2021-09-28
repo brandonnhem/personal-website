@@ -33,6 +33,7 @@
         padding: 1.375rem 1rem;
         background-color: var(--contact-bg-color);
         position: relative;
+        overflow: hidden;
     }
 
     .blob {
