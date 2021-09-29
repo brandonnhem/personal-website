@@ -159,7 +159,7 @@
 
     @media only screen and (min-width: 1632px) and (min-height: 939px) {
         .about-me {
-            margin-left: 35rem;
+            margin-left: 45rem;
         }
     }
 </style>

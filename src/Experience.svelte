@@ -315,4 +315,14 @@
             margin-left: 35rem;
         }
     }
+
+    @media only screen and (min-width: 1632px) and (min-height: 939px) {
+        .divider {
+            left: 42rem;
+        }
+
+        .advanced-col, .intermediate-col, .beginner-col {
+            margin-left: 40rem;
+        }
+    }
 </style>
