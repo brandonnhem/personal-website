@@ -33,4 +33,16 @@
         left: 13rem;
         transform: scale(1.5) rotate(38deg);
     }
+
+    @media only screen and (min-width: 768px) {
+        header {
+            margin-bottom: 9rem;
+        }
+
+        .blob {
+            top: -9rem;
+            left: 24rem;
+            transform: scale(1.9) rotate(38deg);
+        }
+    }
 </style>

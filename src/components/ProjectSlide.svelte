@@ -48,4 +48,10 @@
         margin: 0 0.5rem;
         padding-top: 8.0625rem;
     }
+
+    @media only screen and (min-width: 768px) {
+        .project-slide {
+            margin-right: 2.5rem;
+        }
+    }
 </style>

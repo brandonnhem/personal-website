@@ -89,4 +89,12 @@
 			left: 22rem;
 		}
 	}
+
+	@media only screen and (min-width: 768px) {
+		.blob {
+			top: 31rem;
+			left: 44rem;
+			transform: scale(1.9);
+		}
+	}
 </style>

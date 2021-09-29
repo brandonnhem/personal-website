@@ -23,8 +23,8 @@
     .blob {
         position: absolute;
         z-index: -1;
-        top: 0px;
-        left: -46px;
+        top: 0;
+        left: -2.875rem;
         transform: scale(1.3);
     }
 
@@ -59,6 +59,23 @@
     @media only screen and (min-width: 411px) {
         .about-me {
             margin-left: 4.75rem;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        .about {
+            padding: 3rem 3rem;
+        }
+
+        .about-me {
+            margin-left: 15.25rem;
+            width: 24rem;
+        }
+
+        .blob {
+            transform: scale(1.5);
+            top: -1rem;
+            left: -3rem;
         }
     }
 

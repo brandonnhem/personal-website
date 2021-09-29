@@ -122,4 +122,18 @@
             top: -5.375rem;
         }
     }
+
+    @media only screen and (min-width: 768px) {
+        #wave {
+            top: -9.975rem;
+        }
+
+        .projects {
+            padding: 0 3rem;
+        }
+
+        .cta-btn {
+            margin: 0.8125rem 2rem 1rem 32.875rem;
+        }
+    }
 </style>
