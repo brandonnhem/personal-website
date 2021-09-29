@@ -2,8 +2,10 @@
     import SectionTitle from './components/SectionTitle.svelte';
 
     let svgSize = 40;
-    if (window.innerWidth >= 768) {
+    if (window.innerWidth >= 768 && window.innerWidth < 1024) {
         svgSize = 60;
+    } else {
+        svgSize = 70;
     }
 </script>
 
@@ -45,6 +47,12 @@
     @media only screen and (min-width: 768px) {
         .contact {
             padding: 2rem 3rem;
+        }
+    }
+
+    @media only screen and (min-width: 1024px) and (min-height: 1366px) {
+        .contact {
+            padding: 3rem 3.5rem;
         }
     }
 </style>

@@ -79,4 +79,17 @@
         }
     }
 
+    @media only screen 
+           and (min-width: 1024px)
+           and (min-height: 1366px) {
+
+        .about {
+            padding: 3rem 3.5rem;
+        }
+
+        .about-me {
+            margin-left: 30rem;
+        }
+    }
+
 </style>

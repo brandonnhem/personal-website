@@ -2,8 +2,10 @@
     import SectionTitle from './components/SectionTitle.svelte';
 
     let svgSize = 50;
-    if (window.innerWidth >= 768) {
+    if (window.innerWidth >= 768 && window.innerWidth < 1024) {
         svgSize = 70;
+    } else {
+        svgSize = 80;
     }
 </script>
 
@@ -173,6 +175,40 @@
         .advanced-col, .intermediate-col, .beginner-col {
             margin-left: 15rem;
             column-gap: 2.5rem;
+        }
+    }
+
+    @media only screen 
+           and (min-width: 1024px) 
+           and (min-height: 1366px) {
+        .experience {
+            padding: 3rem 3.5rem;
+        }
+
+        .experiences {
+            margin: 1rem 3rem;
+        }
+
+        .advanced, .intermediate, .beginner {
+            margin-bottom: 3rem;
+        }
+
+        .advanced-col, .intermediate-col, .beginner-col {
+            margin-left: 20rem;
+            column-gap: 5rem;
+        }
+
+        .divider {
+            left: 25rem;
+            height: 28.5rem;
+        }
+
+        .divider-1 {
+            top: 6rem;
+        }
+
+        .divider-2 {
+            top: 22rem;
         }
     }
 </style>

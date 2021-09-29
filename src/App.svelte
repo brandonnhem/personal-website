@@ -97,4 +97,11 @@
 			transform: scale(1.9);
 		}
 	}
+
+	@media only screen and (min-width: 768px) and (min-height: 1366px) {
+		.blob {
+			top: 35.875rem;
+			left: 60.25rem;
+		}
+	}
 </style>

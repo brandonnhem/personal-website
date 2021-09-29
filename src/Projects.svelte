@@ -136,4 +136,28 @@
             margin: 0.8125rem 2rem 1rem 32.875rem;
         }
     }
+
+    @media only screen 
+           and (min-width: 1024px)
+           and (min-height: 1366px) {
+        #wave {
+            top: -13.5rem;
+        }
+
+        section {
+            margin-top: 13.5rem;
+        }
+
+        .projects {
+            padding: 4rem 3.5rem;
+        }
+
+        .carousel {
+            margin-left: 1.5rem;
+        }
+
+        .cta-btn {
+            margin-left: 48rem;
+        }
+    }
 </style>

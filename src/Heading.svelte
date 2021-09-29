@@ -45,4 +45,12 @@
             transform: scale(1.9) rotate(38deg);
         }
     }
+
+    @media only screen 
+           and (min-width: 1024px)
+           and (min-height: 1366px) {
+        .blob {
+            left: 32rem;
+        }
+    }
 </style>
