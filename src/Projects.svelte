@@ -122,4 +122,98 @@
             top: -5.375rem;
         }
     }
+
+    @media only screen and (min-width: 768px) {
+        #wave {
+            top: -9.975rem;
+        }
+
+        .projects {
+            padding: 0 3rem;
+        }
+
+        .cta-btn {
+            margin: 0.8125rem 2rem 1rem 32.875rem;
+        }
+    }
+
+    @media only screen 
+           and (min-width: 1024px)
+           and (min-height: 1366px) {
+        #wave {
+            top: -13.5rem;
+        }
+
+        section {
+            margin-top: 13.5rem;
+        }
+
+        .projects {
+            padding: 4rem 3.5rem;
+        }
+
+        .carousel {
+            margin-left: 1.5rem;
+        }
+
+        .cta-btn {
+            margin-left: 48rem;
+        }
+    }
+
+    @media only screen 
+           and (min-width: 800px) 
+           and (min-height: 1112px) {
+        #wave {
+            top: -10.4rem;
+        }
+
+        .carousel {
+            margin-left: 1.5rem;
+        }
+    }
+
+    @media only screen 
+           and (min-width: 1024px) 
+           and (min-height: 768px) {
+        #wave {
+            top: -13.275rem;
+        }
+
+        .carousel {
+            margin-left: 1.5rem;
+        }
+
+        .cta-btn {
+            margin: 0.8125rem 2rem 1rem 44.875rem;
+        }
+    }
+
+    @media only screen and (min-width: 1366px) and (min-height: 1024px) {
+        #wave {
+            top: -17.675rem;
+        }
+
+        .projects {
+            padding: 0 13rem 3.5rem;
+        }
+    }
+
+    @media only screen and (min-width: 1280px) and (min-height: 632px) {
+        #wave {
+            top: -16.575rem;
+        }
+
+        .projects {
+            padding: 0 13rem 3.5rem;
+        }
+
+        .cta-btn {
+            margin: 0.8125rem 2rem 1rem 42.875rem;
+        }
+
+        .carousel {
+            margin-left: 1.5rem;
+        }
+    }
 </style>

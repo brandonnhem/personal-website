@@ -23,8 +23,8 @@
     .blob {
         position: absolute;
         z-index: -1;
-        top: 0px;
-        left: -46px;
+        top: 0;
+        left: -2.875rem;
         transform: scale(1.3);
     }
 
@@ -62,4 +62,76 @@
         }
     }
 
+    @media only screen and (min-width: 768px) {
+        .about {
+            padding: 3rem 3rem;
+        }
+
+        .about-me {
+            margin-left: 15.25rem;
+            width: 24rem;
+        }
+
+        .blob {
+            transform: scale(1.5);
+            top: -1rem;
+            left: -3rem;
+        }
+    }
+
+    @media only screen 
+           and (min-width: 1024px)
+           and (min-height: 1366px) {
+
+        .about {
+            padding: 3rem 3.5rem;
+        }
+
+        .about-me {
+            margin-left: 30rem;
+        }
+    }
+
+
+    @media only screen and (min-width: 800px) and (min-height: 112px) {
+        .about-me {
+            margin-left: 17.25rem;
+        }
+    }
+
+    @media only screen and (min-width: 1024px) and (min-height: 768px) {
+        .about-me {
+            margin-left: 31rem;
+        }
+    }
+    
+    @media only screen and (min-width: 1366px) and (min-height: 1024px) {
+        .about {
+            padding: 3.5rem 13rem;
+        }
+
+        .about-me {
+            margin-left: 31rem;
+        }
+
+        .blob {
+            top: 1rem;
+            left: 8rem;
+        }
+    }
+
+    @media only screen and (min-width: 1280px) and (min-height: 632px) {
+        .about {
+            padding: 3.5rem 13rem;
+        }
+
+        .about-me {
+            margin-left: 27rem;
+        }
+
+        .blob {
+            top: 1rem;
+            left: 8rem;
+        }
+    }
 </style>
