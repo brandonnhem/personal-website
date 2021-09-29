@@ -287,4 +287,32 @@
             margin-left: 26rem;
         }
     }
+
+    @media only screen and (min-width: 1024px) {
+        .experience {
+            padding: 0 13rem 3.5rem;
+        }
+
+        .divider {
+            left: 26rem;
+        }
+
+        .advanced, .intermediate, .beginner {
+            margin-left: 1.5rem;
+        }
+
+        .advanced-col, .intermediate-col, .beginner-col {
+            margin-left: 10rem;
+        }
+    }
+
+    @media only screen and (min-width: 1440px) {
+        .divider {
+            left: 37rem;
+        }
+
+        .advanced-col, .intermediate-col, .beginner-col {
+            margin-left: 35rem;
+        }
+    }
 </style>

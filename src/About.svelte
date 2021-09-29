@@ -134,4 +134,32 @@
             left: 8rem;
         }
     }
+
+    @media only screen and (min-width: 1024px) {
+        .about {
+            padding: 3.5rem 13rem;
+        }
+
+        .about-me {
+            margin-left: 11rem;
+        }
+
+        .blob {
+            top: 1rem;
+            left: 8rem;
+        }
+    }
+
+    @media only screen and (min-width: 1440px) {
+        .about-me {
+            margin-left: 33rem;
+            width: 28rem;
+        }
+    }
+
+    @media only screen and (min-width: 1632px) and (min-height: 939px) {
+        .about-me {
+            margin-left: 35rem;
+        }
+    }
 </style>

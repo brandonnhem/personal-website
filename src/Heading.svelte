@@ -85,4 +85,41 @@
             margin-bottom: 14rem;
         }
     }
+
+    @media only screen and (min-width: 1024px) {
+        header {
+            padding: 0 13rem;
+        }
+
+        .intro {
+            margin: 9rem 0 1rem;
+        }
+
+        .blob {
+            top: -12rem;
+            left: 20rem;
+        }
+    }
+
+    @media only screen and (min-width: 1140px) {
+        header {
+            padding: 5rem 13rem;
+        }
+
+        .intro {
+            margin: 11rem 0 1rem;
+        }
+
+        .blob {
+            top: -18rem;
+            left: 31rem;
+            transform: scale(2.7) rotate(38deg);
+        }
+    }
+    
+    @media only screen and (min-width: 1632px) and (min-height: 939px) {
+        .blob {
+            top: -20rem;
+        }
+    }
 </style>

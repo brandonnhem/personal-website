@@ -138,4 +138,26 @@
             margin: 0 0 1rem 7rem;
         }
     }
+
+    @media only screen and (min-width: 1024px) {
+        .project-slide {
+            width: 9.5625rem;
+            height: 17.9375rem;
+            margin-right: 5rem;
+            background-size: 9.5625rem 17.9375rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin: 3.5rem 1rem 0;
+        }
+
+        .links {
+            margin: 0 0 1rem 5rem;
+        }
+
+        .one-link {
+            margin: 0 0 1rem 7rem;
+        }
+    }
 </style>

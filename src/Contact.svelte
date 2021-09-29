@@ -67,4 +67,10 @@
             padding: 3rem 13rem;
         }
     }
+
+    @media only screen and (min-width: 1024px) {
+        .contact {
+            padding: 3rem 13rem;
+        }
+    }
 </style>

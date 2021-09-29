@@ -216,4 +216,38 @@
             margin-left: 1.5rem;
         }
     }
+
+    @media only screen and (min-width: 1024px) {
+        .projects {
+            padding: 0 13rem 3.5rem;
+        }
+
+        .cta-btn {
+            margin: 0.8125rem 2rem 1rem 27.875rem;
+        }
+    }
+
+    @media only screen and (min-width: 1440px) {
+        #wave {
+            top: -18.575rem;
+        }
+
+        .cta-btn {
+            margin: 0.8125rem 2rem 1rem 54.875rem;
+        }
+    }
+
+    @media only screen and (min-width: 1632px) and (min-height: 939px) {
+        #wave {
+            top: -20.975rem;
+        }
+
+        .cta-btn {
+            margin: 0.8125rem 2rem 1rem 66.875rem;
+        }
+
+        .projects {
+            padding: 0 13rem 4.5rem;
+        }
+    }
 </style>
