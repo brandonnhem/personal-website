@@ -160,4 +160,16 @@
             margin-left: 48rem;
         }
     }
+
+    @media only screen 
+           and (min-width: 800px) 
+           and (min-height: 1112px) {
+        #wave {
+            top: -10.4rem;
+        }
+
+        .carousel {
+            margin-left: 1.5rem;
+        }
+    }
 </style>

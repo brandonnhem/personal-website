@@ -92,4 +92,10 @@
         }
     }
 
+
+    @media only screen and (min-width: 800px) and (min-height: 112px) {
+        .about-me {
+            margin-left: 17.25rem;
+        }
+    }
 </style>

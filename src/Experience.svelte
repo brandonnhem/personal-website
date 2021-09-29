@@ -211,4 +211,20 @@
             top: 22rem;
         }
     }
+
+    @media only screen 
+           and (min-width: 800px) 
+           and (min-height: 1112px) {
+        .divider {
+            height: 26rem;
+        }
+
+        .divider-1 {
+            top: 5.2rem;
+        }
+
+        .divider-2 {
+            top: 19rem;
+        }
+    }
 </style>

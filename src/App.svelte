@@ -104,4 +104,10 @@
 			left: 60.25rem;
 		}
 	}
+
+	@media only screen and (min-width: 800px) and (min-height: 1112px) {
+		.blob {
+			left: 46.125rem;
+		}
+	}
 </style>
