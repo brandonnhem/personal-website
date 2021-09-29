@@ -98,4 +98,40 @@
             margin-left: 17.25rem;
         }
     }
+
+    @media only screen and (min-width: 1024px) and (min-height: 768px) {
+        .about-me {
+            margin-left: 31rem;
+        }
+    }
+    
+    @media only screen and (min-width: 1366px) and (min-height: 1024px) {
+        .about {
+            padding: 3.5rem 13rem;
+        }
+
+        .about-me {
+            margin-left: 31rem;
+        }
+
+        .blob {
+            top: 1rem;
+            left: 8rem;
+        }
+    }
+
+    @media only screen and (min-width: 1280px) and (min-height: 632px) {
+        .about {
+            padding: 3.5rem 13rem;
+        }
+
+        .about-me {
+            margin-left: 27rem;
+        }
+
+        .blob {
+            top: 1rem;
+            left: 8rem;
+        }
+    }
 </style>

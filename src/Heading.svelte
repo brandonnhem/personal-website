@@ -53,4 +53,36 @@
             left: 32rem;
         }
     }
+
+    @media only screen
+           and (min-width: 1024px) 
+           and (min-height: 768px) {
+        header {
+            margin-bottom: 15rem;
+        }
+
+        .blob {
+            left: 33rem;
+        }
+    }
+
+    @media only screen and (min-width: 1366px) and (min-height: 1024px) {
+        .intro {
+            margin: 10rem 0 1rem;
+        }
+
+        .blob {
+            top: -12rem;
+        }
+    }
+
+    @media only screen and (min-width: 1280px) and (min-height: 632px) {
+        .intro {
+            margin: 8rem 0 1rem;
+        }
+
+        header {
+            margin-bottom: 14rem;
+        }
+    }
 </style>

@@ -172,4 +172,48 @@
             margin-left: 1.5rem;
         }
     }
+
+    @media only screen 
+           and (min-width: 1024px) 
+           and (min-height: 768px) {
+        #wave {
+            top: -13.275rem;
+        }
+
+        .carousel {
+            margin-left: 1.5rem;
+        }
+
+        .cta-btn {
+            margin: 0.8125rem 2rem 1rem 44.875rem;
+        }
+    }
+
+    @media only screen and (min-width: 1366px) and (min-height: 1024px) {
+        #wave {
+            top: -17.675rem;
+        }
+
+        .projects {
+            padding: 0 13rem 3.5rem;
+        }
+    }
+
+    @media only screen and (min-width: 1280px) and (min-height: 632px) {
+        #wave {
+            top: -16.575rem;
+        }
+
+        .projects {
+            padding: 0 13rem 3.5rem;
+        }
+
+        .cta-btn {
+            margin: 0.8125rem 2rem 1rem 42.875rem;
+        }
+
+        .carousel {
+            margin-left: 1.5rem;
+        }
+    }
 </style>

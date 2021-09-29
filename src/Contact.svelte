@@ -55,4 +55,16 @@
             padding: 3rem 3.5rem;
         }
     }
+
+    @media only screen and (min-width: 1366px) and (min-height: 1024px) {
+        .contact {
+            padding: 3rem 13rem;
+        }
+    }
+    
+    @media only screen and (min-width: 1280px) and (min-height: 632px) {
+        .contact {
+            padding: 3rem 13rem;
+        }
+    }
 </style>

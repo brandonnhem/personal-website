@@ -227,4 +227,64 @@
             top: 19rem;
         }
     }
+
+    @media only screen and (min-width: 1024px) and (min-height: 768px) {
+        .divider {
+            left: 29rem;
+            height: 27.75rem;
+        }
+
+        .divider-1 {
+            top: 6rem;
+        }
+
+        .divider-2 {
+            top: 21rem;
+        }
+
+        .advanced, .intermediate, .beginner {
+            margin-left: 3rem;
+        }
+
+        .advanced-col, .intermediate-col, .beginner-col {
+            margin-left: 26rem;
+        }
+    }
+
+    @media only screen and (min-width: 1366px) and (min-height: 1024px) {
+        .experience {
+            padding: 0 13rem 3.5rem;
+        }
+
+        .divider {
+            left: 37rem;
+        }
+    }
+
+    @media only screen and (min-width: 1280px) and (min-height: 632px) {
+        .experience {
+            padding: 0 13rem 3.5rem;
+        }
+
+        .divider {
+            left: 37rem;
+            height: 28rem;
+        }
+
+        .divider-1 {
+            top: 5.8rem;
+        }
+
+        .divider-2 {
+            top: 21rem;
+        }
+
+        .advanced, .intermediate, .beginner {
+            margin-left: 1.5rem;
+        }
+
+        .advanced-col, .intermediate-col, .beginner-col {
+            margin-left: 26rem;
+        }
+    }
 </style>

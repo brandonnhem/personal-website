@@ -110,4 +110,25 @@
 			left: 46.125rem;
 		}
 	}
+
+	@media only screen and (min-width: 1024px) and (min-height: 768px) {
+		.blob {
+			top: 33rem;
+			left: 60rem;
+		}
+	}
+
+	@media only screen and (min-width: 1366px) and (min-height: 1024px) {
+		.blob {
+			top: 31rem;
+			left: 68rem;
+		}
+	}
+	
+	@media only screen and (min-width: 1280px) and (min-height: 632px) {
+		.blob {
+			top: 31rem;
+			left: 64rem;
+		}
+	}
 </style>
