@@ -70,6 +70,25 @@
         overflow-y: hidden;
     }
 
+    .carousel::-webkit-scrollbar {
+        width: 20px;
+    }
+    
+    .carousel::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+    
+    .carousel::-webkit-scrollbar-thumb {
+        background-color: rgb(185, 189, 190);
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+    }
+    
+    .carousel::-webkit-scrollbar-thumb:hover {
+        background-color: rgb(153, 167, 170);
+    }
+
     .cta-btn {
         background-color: var(--icon-color);
         color: hsl(100, 100%, 100%);
