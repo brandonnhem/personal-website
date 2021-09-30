@@ -131,4 +131,18 @@
 			left: 64rem;
 		}
 	}
+
+	@media only screen and (min-width: 1024px) {
+		.blob {
+			top: 31rem;
+			left: 49rem;
+		}
+	}
+	
+	@media only screen and (min-width: 1440px) {
+		.blob {
+			top: 31rem;
+			left: 74rem;
+		}
+	}
 </style>
