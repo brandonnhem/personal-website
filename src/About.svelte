@@ -64,7 +64,7 @@
 
     @media only screen and (min-width: 768px) {
         .about {
-            padding: 3rem 3rem;
+            padding: 3rem 3rem 0;
         }
 
         .about-me {
@@ -76,6 +76,16 @@
             transform: scale(1.5);
             top: -1rem;
             left: -3rem;
+        }
+
+        p {
+            font-size: 1.25rem;
+        }
+    }
+
+    @media only screen and (min-width: 800px) and (min-height: 112px) {
+        .about-me {
+            margin-left: 17.25rem;
         }
     }
 
@@ -92,26 +102,19 @@
         }
     }
 
-
-    @media only screen and (min-width: 800px) and (min-height: 112px) {
-        .about-me {
-            margin-left: 17.25rem;
-        }
-    }
-
     @media only screen and (min-width: 1024px) and (min-height: 768px) {
         .about-me {
             margin-left: 31rem;
         }
     }
-    
-    @media only screen and (min-width: 1366px) and (min-height: 1024px) {
+
+    @media only screen and (min-width: 1024px) {
         .about {
             padding: 3.5rem 13rem;
         }
 
         .about-me {
-            margin-left: 31rem;
+            margin-left: 11rem;
         }
 
         .blob {
@@ -135,13 +138,13 @@
         }
     }
 
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1366px) and (min-height: 1024px) {
         .about {
             padding: 3.5rem 13rem;
         }
 
         .about-me {
-            margin-left: 11rem;
+            margin-left: 31rem;
         }
 
         .blob {
@@ -154,6 +157,10 @@
         .about-me {
             margin-left: 33rem;
             width: 28rem;
+        }
+
+        p {
+            font-size: 1.25rem;
         }
     }
 

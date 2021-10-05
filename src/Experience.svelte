@@ -4,7 +4,7 @@
     let svgSize = 50;
     if (window.innerWidth >= 768 && window.innerWidth < 1024) {
         svgSize = 70;
-    } else {
+    } else if(window.innerWidth >= 1024) {
         svgSize = 80;
     }
 </script>
@@ -148,6 +148,12 @@
         margin-left: 3.75rem;
     }
 
+    @media only screen and (min-width: 414px) and (min-height: 736px) {
+        .advanced-col, .intermediate-col, .beginner-col {
+            margin-left: 6rem;
+        }
+    }
+
     @media only screen and (min-width: 768px) {
         h3 {
             font-size: 1.5rem;
@@ -175,40 +181,6 @@
         .advanced-col, .intermediate-col, .beginner-col {
             margin-left: 15rem;
             column-gap: 2.5rem;
-        }
-    }
-
-    @media only screen 
-           and (min-width: 1024px) 
-           and (min-height: 1366px) {
-        .experience {
-            padding: 3rem 3.5rem;
-        }
-
-        .experiences {
-            margin: 1rem 3rem;
-        }
-
-        .advanced, .intermediate, .beginner {
-            margin-bottom: 3rem;
-        }
-
-        .advanced-col, .intermediate-col, .beginner-col {
-            margin-left: 20rem;
-            column-gap: 5rem;
-        }
-
-        .divider {
-            left: 25rem;
-            height: 28.5rem;
-        }
-
-        .divider-1 {
-            top: 6rem;
-        }
-
-        .divider-2 {
-            top: 22rem;
         }
     }
 
@@ -251,6 +223,58 @@
         }
     }
 
+    @media only screen and (min-width: 1024px) {
+        .experience {
+            padding: 0 13rem 3.5rem;
+        }
+
+        .divider {
+            left: 26rem;
+        }
+
+        .advanced, .intermediate, .beginner {
+            margin-left: 1.5rem;
+        }
+
+        .advanced-col, .intermediate-col, .beginner-col {
+            margin-left: 10rem;
+        }
+    }
+
+    @media only screen 
+           and (min-width: 1024px) 
+           and (min-height: 1366px) {
+        .experience {
+            padding: 0 13rem 3.5rem;
+        }
+
+        .experiences {
+            margin: 1rem 3rem 1rem 0rem;
+        }
+
+        .advanced, .intermediate, .beginner {
+            margin-bottom: 3rem;
+        }
+
+        .advanced-col, .intermediate-col, .beginner-col {
+            margin-left: 10rem;
+            column-gap: 3rem;
+        }
+
+        .divider {
+            left: 25rem;
+            height: 28.5rem;
+        }
+
+        .divider-1 {
+            top: 6rem;
+        }
+
+        .divider-2 {
+            top: 22rem;
+        }
+    }
+
     @media only screen and (min-width: 1366px) and (min-height: 1024px) {
         .experience {
             padding: 0 13rem 3.5rem;
@@ -285,24 +309,6 @@
 
         .advanced-col, .intermediate-col, .beginner-col {
             margin-left: 26rem;
-        }
-    }
-
-    @media only screen and (min-width: 1024px) {
-        .experience {
-            padding: 0 13rem 3.5rem;
-        }
-
-        .divider {
-            left: 26rem;
-        }
-
-        .advanced, .intermediate, .beginner {
-            margin-left: 1.5rem;
-        }
-
-        .advanced-col, .intermediate-col, .beginner-col {
-            margin-left: 10rem;
         }
     }
 

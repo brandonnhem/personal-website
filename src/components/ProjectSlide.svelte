@@ -160,4 +160,11 @@
             margin: 0 0 1rem 7rem;
         }
     }
+
+    @media only screen and (min-width: 1440px) {
+        h2 {
+            font-size: 2rem;
+            margin: 2rem 1rem 0;
+        }
+    }
 </style>

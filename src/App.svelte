@@ -118,10 +118,17 @@
 		}
 	}
 
-	@media only screen and (min-width: 1366px) and (min-height: 1024px) {
+	@media only screen and (min-width: 1024px) {
 		.blob {
 			top: 31rem;
-			left: 68rem;
+			left: 49rem;
+		}
+	}
+	
+	@media only screen and (min-width: 1024px) and (min-height: 1366px) {
+		.blob {
+			top: 34rem;
+			left: 49rem;
 		}
 	}
 	
@@ -131,14 +138,14 @@
 			left: 64rem;
 		}
 	}
-
-	@media only screen and (min-width: 1024px) {
+	
+	@media only screen and (min-width: 1366px) and (min-height: 1024px) {
 		.blob {
 			top: 31rem;
-			left: 49rem;
+			left: 68rem;
 		}
 	}
-	
+
 	@media only screen and (min-width: 1440px) {
 		.blob {
 			top: 31rem;
