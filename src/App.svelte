@@ -148,8 +148,8 @@
 
 	@media only screen and (min-width: 1440px) {
 		.blob {
-			top: 31rem;
-			left: 74rem;
+			top: 33rem;
+    		left: 77rem;
 		}
 	}
 
