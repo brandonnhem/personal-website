@@ -350,6 +350,10 @@
             left: 18.75rem;
             transform: scale(1.3);
         }
+
+        h3 {
+            font-size: 2rem;
+        }
     }
 
     @media only screen and (min-width: 1632px) and (min-height: 939px) {
