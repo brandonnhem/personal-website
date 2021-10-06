@@ -316,8 +316,8 @@
     }
 
     @media only screen and (min-width: 1632px) and (min-height: 939px) {
-        #wave {
-            top: -20.975rem;
+        #big-wave {
+            top: -4.6rem;
         }
 
         .cta-btn {
@@ -325,7 +325,7 @@
         }
 
         .projects {
-            padding: 0 13rem 4.5rem;
+            padding: 0 13rem 7rem;
         }
     }
 </style>

@@ -297,7 +297,8 @@
 
     @media only screen and (min-width: 1632px) and (min-height: 939px) {
         .advanced-col, .intermediate-col, .beginner-col {
-            margin-left: 40rem;
+            margin-left: 26rem;
+            column-gap: 14rem;
         }
     }
 </style>

@@ -128,7 +128,15 @@
     
     @media only screen and (min-width: 1632px) and (min-height: 939px) {
         .blob {
-            top: -20rem;
+            top: -18rem;
+        }
+
+        header {
+            margin-bottom: 8rem;
+        }
+
+        .intro {
+            margin: 9rem ​0 1rem;
         }
     }
 </style>
