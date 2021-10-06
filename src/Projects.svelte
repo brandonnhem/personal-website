@@ -173,9 +173,6 @@
             top: -2.2rem;
             z-index: -1;
         }
-        /* #wave {
-            top: -9.975rem;
-        } */
 
         .projects {
             padding: 0 3rem 1rem;
@@ -193,10 +190,7 @@
             position: absolute;
             top: -2.9rem;
             z-index: -1;
-        }   
-            /* #wave {
-            top: -13.5rem;
-        } */
+        }
 
         section {
             margin-top: 13.5rem;
@@ -291,9 +285,6 @@
         #big-wave {
             top: -3.6rem;
         }
-        /* #wave {
-            top: -17.675rem;
-        } */
 
         .projects {
             padding: 0 13rem 5rem;
