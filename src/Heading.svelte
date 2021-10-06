@@ -117,7 +117,7 @@
 
         .blob {
             top: -18rem;
-            left: 31rem;
+            left: 37rem;
             transform: scale(2.7) rotate(38deg);
         }
 
