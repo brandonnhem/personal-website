@@ -4,7 +4,7 @@
     let svgSize = 40;
     if (window.innerWidth >= 768 && window.innerWidth < 1024) {
         svgSize = 60;
-    } else {
+    } else if (window.innerWidth >= 1024) {
         svgSize = 70;
     }
 </script>
