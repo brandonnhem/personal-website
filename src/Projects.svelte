@@ -94,6 +94,7 @@
         background-color: rgb(185, 189, 190);
         border-radius: 20px;
         border: 6px solid transparent;
+        -webkit-background-clip: content-box;
         background-clip: content-box;
     }
     
