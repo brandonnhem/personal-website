@@ -13,9 +13,37 @@
     <SectionTitle titleName="EXPERIENCE" />
     <div class="experiences">
         <div class="divider">
-            <div class="divider-1"></div>
-            <div class="divider-2"></div>
-        </div>
+            <svg width="20" height="230" viewBox="0 0 22 238" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="7.36396" y1="7" x2="15.1421" y2="14.7782" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7" y1="22.7781" x2="14.7782" y2="15" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7.36396" y1="23" x2="15.1421" y2="30.7782" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7" y1="38.7781" x2="14.7782" y2="31" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7.36396" y1="39" x2="15.1421" y2="46.7782" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7" y1="54.7781" x2="14.7782" y2="47" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7.36396" y1="55" x2="15.1421" y2="62.7782" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7" y1="70.7781" x2="14.7782" y2="63" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7.36396" y1="71" x2="15.1421" y2="78.7782" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7" y1="86.7781" x2="14.7782" y2="79" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7.36396" y1="87" x2="15.1421" y2="94.7782" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7" y1="102.778" x2="14.7782" y2="95" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7.36396" y1="103" x2="15.1421" y2="110.778" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7" y1="118.778" x2="14.7782" y2="111" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7.36396" y1="119" x2="15.1421" y2="126.778" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7" y1="134.778" x2="14.7782" y2="127" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7.36396" y1="135" x2="15.1421" y2="142.778" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7" y1="150.778" x2="14.7782" y2="143" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7.36396" y1="151" x2="15.1421" y2="158.778" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7" y1="166.778" x2="14.7782" y2="159" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7.36396" y1="167" x2="15.1421" y2="174.778" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7" y1="182.778" x2="14.7782" y2="175" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7.36396" y1="183" x2="15.1421" y2="190.778" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7" y1="198.778" x2="14.7782" y2="191" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7.36396" y1="199" x2="15.1421" y2="206.778" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7" y1="214.778" x2="14.7782" y2="207" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7.36396" y1="215" x2="15.1421" y2="222.778" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+                <line x1="7" y1="230.778" x2="14.7782" y2="223" stroke="#3E7CB1" stroke-width="9" stroke-linecap="round"/>
+            </svg>
+        </div>            
         <div class="advanced">
             <h3>Advanced</h3>
             <div class="advanced-col">
@@ -78,34 +106,21 @@
     }
 
     .experiences {
-        margin: 1rem
+        margin: 1rem;
+        position: relative;
     }
 
     .divider {
-        width: 0.1875rem;
-        height: 19.5625rem;
         position: absolute;
-        background-color: hsl(0, 0%, 0%);
-        border-radius: 0.625rem;
-        left: 8.125rem;
+        z-index: -1;
+        display: block;
+        left: 6.75rem;
+        top: 2.5rem;
     }
 
-    .divider-1 {
-        width: 2.8125rem;
-        height: 0.1875rem;
-        position: absolute;
-        background-color: hsl(0, 0%, 0%);
-        border-radius: 0.625rem;
-        top: 4rem;
-    }
-    
-    .divider-2 {
-        width: 3.75rem;
-        height: 0.1875rem;
-        position: absolute;
-        background-color: hsl(0, 0%, 0%);
-        border-radius: 0.625rem;
-        top: 15.375rem;
+    .advanced-col, .intermediate-col, .beginner-col {
+        column-gap: 1rem;
+        margin-left: 5rem;
     }
 
     .advanced {
@@ -117,8 +132,6 @@
     .advanced-col {
         display: grid;
         grid-template-columns: auto auto;
-        column-gap: 1rem;
-        margin-left: 3.75rem;
     }
 
     .intermediate {
@@ -131,9 +144,7 @@
         display: grid;
         grid-template-columns: auto auto auto;
         grid-template-rows: 50% 50%;
-        column-gap: 1rem;
         row-gap: 2rem;
-        margin-left: 3.75rem;
     }
 
     .beginner {
@@ -144,8 +155,21 @@
     .beginner-col {
         display: grid;
         grid-template-columns: auto auto auto;
-        column-gap: 1rem;
-        margin-left: 3.75rem;
+    }
+
+    @media only screen and (min-width: 360px) {
+        .advanced-col, .intermediate-col, .beginner-col {
+            column-gap: 0.5rem;
+        }
+    }
+
+    @media only screen and (min-width: 375px) {
+    }
+
+    @media only screen and (min-width: 411px) {
+        .advanced-col, .intermediate-col, .beginner-col {
+            column-gap: 1.5rem;
+        }
     }
 
     @media only screen and (min-width: 414px) and (min-height: 736px) {
@@ -163,57 +187,23 @@
             padding: 3rem;
         }
 
-        .divider {
-            left: 18rem;
-            height: 24.75rem;
-        }
-
-        .divider-1 {
-            width: 8rem;
-            top: 5.2rem;
-        }
-
-        .divider-2 {
-            width: 11rem;
-            top: 19rem;
-        }
-
         .advanced-col, .intermediate-col, .beginner-col {
-            margin-left: 15rem;
+            margin-left: 13rem;
             column-gap: 2.5rem;
+        }
+
+        .divider {
+            left: 11.75rem;
+            top: 5.5rem;
         }
     }
 
     @media only screen 
            and (min-width: 800px) 
            and (min-height: 1112px) {
-        .divider {
-            height: 26rem;
-        }
-
-        .divider-1 {
-            top: 5.2rem;
-        }
-
-        .divider-2 {
-            top: 19rem;
-        }
     }
 
     @media only screen and (min-width: 1024px) and (min-height: 768px) {
-        .divider {
-            left: 29rem;
-            height: 27.75rem;
-        }
-
-        .divider-1 {
-            top: 6rem;
-        }
-
-        .divider-2 {
-            top: 21rem;
-        }
-
         .advanced, .intermediate, .beginner {
             margin-left: 3rem;
         }
@@ -226,10 +216,6 @@
     @media only screen and (min-width: 1024px) {
         .experience {
             padding: 0 13rem 3.5rem;
-        }
-
-        .divider {
-            left: 26rem;
         }
 
         .advanced, .intermediate, .beginner {
@@ -262,45 +248,14 @@
         }
 
         .divider {
-            left: 25rem;
-            height: 28.5rem;
-        }
-
-        .divider-1 {
-            top: 6rem;
-        }
-
-        .divider-2 {
-            top: 22rem;
-        }
-    }
-
-    @media only screen and (min-width: 1366px) and (min-height: 1024px) {
-        .experience {
-            padding: 0 13rem 3.5rem;
-        }
-
-        .divider {
-            left: 37rem;
+            top: 7.5rem;
+            transform: scale(1.4);
         }
     }
 
     @media only screen and (min-width: 1280px) and (min-height: 632px) {
         .experience {
             padding: 0 13rem 3.5rem;
-        }
-
-        .divider {
-            left: 37rem;
-            height: 28rem;
-        }
-
-        .divider-1 {
-            top: 5.8rem;
-        }
-
-        .divider-2 {
-            top: 21rem;
         }
 
         .advanced, .intermediate, .beginner {
@@ -312,21 +267,35 @@
         }
     }
 
-    @media only screen and (min-width: 1440px) {
-        .divider {
-            left: 37rem;
+    @media only screen and (min-width: 1366px) and (min-height: 1024px) {
+        .experience {
+            padding: 0 13rem 3.5rem;
         }
 
         .advanced-col, .intermediate-col, .beginner-col {
-            margin-left: 35rem;
+            margin-left: 20rem;
+            column-gap: 8.5rem;
+        }
+
+        .divider {
+            left: 16.75rem;
+            top: 5.5rem;
+            transform: scale(1.3);
+        }
+    }
+
+    @media only screen and (min-width: 1440px) {
+        .advanced-col, .intermediate-col, .beginner-col {
+            margin-left: 26rem;
+        }
+
+        .divider {
+            left: 18.75rem;
+            transform: scale(1.3);
         }
     }
 
     @media only screen and (min-width: 1632px) and (min-height: 939px) {
-        .divider {
-            left: 42rem;
-        }
-
         .advanced-col, .intermediate-col, .beginner-col {
             margin-left: 40rem;
         }
