@@ -9,7 +9,7 @@
     }
 </script>
 
-<div class="project-slide" id="slide" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.175) 0%, rgba(0, 0, 0, 0.7) 100%), url({backgroundLink});">
+<div class="project-slide" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.175) 0%, rgba(0, 0, 0, 0.7) 100%), url({backgroundLink});">
     <h2>{projectName}</h2>
     
     {#if liveLink !== undefined}
@@ -158,6 +158,13 @@
 
         .one-link {
             margin: 0 0 1rem 7rem;
+        }
+    }
+
+    @media only screen and (min-width: 1440px) {
+        h2 {
+            font-size: 2rem;
+            margin: 2rem 1rem 0;
         }
     }
 </style>

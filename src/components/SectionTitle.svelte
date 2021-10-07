@@ -21,4 +21,14 @@
         height: 0.125rem;
         background-color: hsl(0, 0%, 0%);
     }
+
+    @media only screen and (min-width: 1440px) {
+        h2 {
+            font-size: 2rem;
+        }
+
+        .title-dash {
+            height: 0.25rem;
+        }
+    }
 </style>

@@ -11,6 +11,8 @@
     </div>
     <div class="about-me">
         <p>I’m a Comp Sci grad from Cal State Long Beach. I enjoy programming and creating apps. I’d love to be part of a team where I can apply my skills and challenge myself.</p>
+        <br>
+        <p>I'm well versed in a handful of languages, but consider myself a backend engineer. Currently working on refining my frontend skills so that I can become a fullstack engineer.</p>
     </div>
 </div>
 
@@ -31,13 +33,20 @@
     .about-me {
         background-color: var(--about-bg-color);
         width: 16.1875rem;
-        height: 7rem;
+        height: max-content;
         padding: 0.6875rem 1.375rem;
         border-radius: 2rem 0 2rem 2rem;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-left: 2.4375rem;
+    }
+
+    @media only screen and (device-width: 280px) and (device-height: 653px) {
+        .about-me {
+            width: 10.3rem;
+        }
     }
 
     /* GALAXY S5 */
@@ -62,20 +71,74 @@
         }
     }
 
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 512px) and (min-height: 717px) {
         .about {
-            padding: 3rem 3rem;
+            padding: 3rem 2rem;
         }
 
         .about-me {
-            margin-left: 15.25rem;
-            width: 24rem;
+            margin-left: 3.8rem;
+            width: 21.3rem;
+        }
+    }
+
+    @media only screen and (min-width: 540px) and (min-height: 720px) {
+        .about {
+            padding: 3rem 2rem;
+        }
+
+        .about-me {
+            margin-left: 3.8rem;
+            width: 23.3rem;
+        }
+    }
+
+    @media only screen and (min-width: 717px) and (min-height: 512px) {
+        .about {
+            padding: 3rem 2rem;
+        }
+
+        .about-me {
+            width: 34.1875rem;
+            margin-left: 4rem;
+        }
+    }
+    
+    @media only screen and (min-width: 720px) and (min-height: 540px) {
+        .about {
+            padding: 3rem 2rem;
+        }
+
+        .about-me {
+            width: 32.1875rem;
+            margin-left: 6rem;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        .about {
+            padding: 3rem 3rem 0;
+        }
+
+        .about-me {
+            margin-left: 3.25rem;
+            width: 36rem;
         }
 
         .blob {
             transform: scale(1.5);
             top: -1rem;
             left: -3rem;
+        }
+
+        p {
+            font-size: 1.25rem;
+        }
+    }
+
+    @media only screen and (min-width: 800px) and (min-height: 112px) {
+        .about-me {
+            margin-left: 17.25rem;
         }
     }
 
@@ -92,19 +155,43 @@
         }
     }
 
-
-    @media only screen and (min-width: 800px) and (min-height: 112px) {
-        .about-me {
-            margin-left: 17.25rem;
-        }
-    }
-
     @media only screen and (min-width: 1024px) and (min-height: 768px) {
         .about-me {
             margin-left: 31rem;
         }
     }
-    
+
+    @media only screen and (min-width: 1024px) {
+        .about {
+            padding: 3.5rem 13rem;
+        }
+
+        .about-me {
+            margin-left: 5rem;
+            width: 30rem;
+        }
+
+        .blob {
+            top: 1rem;
+            left: 8rem;
+        }
+    }
+
+    @media only screen and (min-width: 1280px) and (min-height: 632px) {
+        .about {
+            padding: 3.5rem 13rem;
+        }
+
+        .about-me {
+            margin-left: 15rem;
+        }
+
+        .blob {
+            top: 1rem;
+            left: 8rem;
+        }
+    }
+
     @media only screen and (min-width: 1366px) and (min-height: 1024px) {
         .about {
             padding: 3.5rem 13rem;
@@ -120,46 +207,21 @@
         }
     }
 
-    @media only screen and (min-width: 1280px) and (min-height: 632px) {
-        .about {
-            padding: 3.5rem 13rem;
-        }
-
-        .about-me {
-            margin-left: 27rem;
-        }
-
-        .blob {
-            top: 1rem;
-            left: 8rem;
-        }
-    }
-
-    @media only screen and (min-width: 1024px) {
-        .about {
-            padding: 3.5rem 13rem;
-        }
-
-        .about-me {
-            margin-left: 11rem;
-        }
-
-        .blob {
-            top: 1rem;
-            left: 8rem;
-        }
-    }
-
     @media only screen and (min-width: 1440px) {
         .about-me {
-            margin-left: 33rem;
-            width: 28rem;
+            margin-left: 22rem;
+            width: 39rem;
+        }
+
+        p {
+            font-size: 1.25rem;
         }
     }
 
     @media only screen and (min-width: 1632px) and (min-height: 939px) {
         .about-me {
-            margin-left: 45rem;
+            margin-left: 23rem;
+            width: 48rem;
         }
     }
 </style>

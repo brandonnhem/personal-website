@@ -34,55 +34,50 @@
         transform: scale(1.5) rotate(38deg);
     }
 
+    @media only screen and (device-width: 280px) and (device-height: 653px) {
+        .intro {
+            margin: 6rem 2rem 1rem;
+        }
+
+        .blob {
+            top: -10.25rem;
+            left: 11rem;
+        }
+    }
+
+    @media only screen and (min-width: 512px) and (min-height: 717px) {
+        .blob { 
+            left: 17rem;
+        }
+    }
+
+    @media only screen and (min-width: 540px) and (min-height: 720px) {
+        .blob {
+            left: 17rem;
+        }
+    }
+
+    @media only screen and (min-width: 717px) and (min-height: 512px) {
+        .blob {
+            left: 24rem;
+        }
+    }
+
+    @media only screen and (min-width: 720px) and (min-height: 540px) {
+        .blob {
+            left: 24rem;
+        }
+    }
+
     @media only screen and (min-width: 768px) {
         header {
-            margin-bottom: 9rem;
+            margin-bottom: 6.5rem;
         }
 
         .blob {
             top: -9rem;
             left: 24rem;
             transform: scale(1.9) rotate(38deg);
-        }
-    }
-
-    @media only screen 
-           and (min-width: 1024px)
-           and (min-height: 1366px) {
-        .blob {
-            left: 32rem;
-        }
-    }
-
-    @media only screen
-           and (min-width: 1024px) 
-           and (min-height: 768px) {
-        header {
-            margin-bottom: 15rem;
-        }
-
-        .blob {
-            left: 33rem;
-        }
-    }
-
-    @media only screen and (min-width: 1366px) and (min-height: 1024px) {
-        .intro {
-            margin: 10rem 0 1rem;
-        }
-
-        .blob {
-            top: -12rem;
-        }
-    }
-
-    @media only screen and (min-width: 1280px) and (min-height: 632px) {
-        .intro {
-            margin: 8rem 0 1rem;
-        }
-
-        header {
-            margin-bottom: 14rem;
         }
     }
 
@@ -97,13 +92,62 @@
 
         .blob {
             top: -12rem;
-            left: 20rem;
+            left: 22rem;
         }
     }
 
-    @media only screen and (min-width: 1140px) {
+    @media only screen
+           and (min-width: 1024px) 
+           and (min-height: 768px) {
         header {
-            padding: 5rem 13rem;
+            margin-bottom: 7rem;
+        }
+
+        .blob {
+            left: 33rem;
+        }
+    }
+
+    @media only screen 
+           and (min-width: 1024px)
+           and (min-height: 1366px) {
+        header {
+            margin-bottom: -5rem;
+        }
+
+        .blob {
+            left: 32rem;
+        }
+    }
+
+    @media only screen and (min-width: 1280px) and (min-height: 632px) {
+        .intro {
+            margin: 8rem 0 1rem;
+        }
+
+        header {
+            margin-bottom: 14rem;
+        }
+
+        .blob {
+            left: 29rem;
+        }
+    }
+
+    @media only screen and (min-width: 1366px) and (min-height: 1024px) {
+        .intro {
+            margin: 10rem 0 1rem;
+        }
+
+        .blob {
+            top: -12rem;
+            left: 28rem;
+        }
+    }
+
+    @media only screen and (min-width: 1440px) {
+        header {
+            padding: 5rem 13rem 0;
         }
 
         .intro {
@@ -112,14 +156,26 @@
 
         .blob {
             top: -18rem;
-            left: 31rem;
+            left: 37rem;
             transform: scale(2.7) rotate(38deg);
+        }
+
+        h1 {
+            font-size: 3rem;
         }
     }
     
     @media only screen and (min-width: 1632px) and (min-height: 939px) {
         .blob {
-            top: -20rem;
+            top: -18rem;
+        }
+
+        header {
+            margin-bottom: 8rem;
+        }
+
+        .intro {
+            margin: 9rem ​0 1rem;
         }
     }
 </style>
