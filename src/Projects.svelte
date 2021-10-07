@@ -126,7 +126,7 @@
         color: hsl(100, 100%, 100%);
     }
 
-    @media only screen and (min-width: 280px) and (min-height: 653px) {
+    @media only screen and (device-width: 280px) and (device-height: 653px) {
         #wave {
             top: -3.875rem;
         }

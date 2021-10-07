@@ -214,7 +214,7 @@
         }
     }
 
-    @media only screen and (min-width: 280px) and (min-height: 653px) {
+    @media only screen and (device-width: 280px) and (device-height: 653px) {
         .advanced-col, .intermediate-col, .beginner-col {
             margin-left: 0;
         }

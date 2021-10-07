@@ -34,7 +34,7 @@
         transform: scale(1.5) rotate(38deg);
     }
 
-    @media only screen and (min-width: 280px) and (min-height: 653px) {
+    @media only screen and (device-width: 280px) and (device-height: 653px) {
         .intro {
             margin: 6rem 2rem 1rem;
         }
