@@ -182,7 +182,7 @@
         }
 
         .about-me {
-            margin-left: 27rem;
+            margin-left: 15rem;
         }
 
         .blob {

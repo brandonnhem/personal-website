@@ -426,7 +426,12 @@
         }
 
         .advanced-col, .intermediate-col, .beginner-col {
-            margin-left: 26rem;
+            margin-left: 18rem;
+            column-gap: 5rem;
+        }
+
+        .divider {
+            left: 15.75rem;
         }
     }
 

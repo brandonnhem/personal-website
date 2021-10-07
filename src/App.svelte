@@ -162,7 +162,7 @@
 	
 	@media only screen and (min-width: 1280px) and (min-height: 632px) {
 		.blob {
-			top: 31rem;
+			top: 32rem;
 			left: 64rem;
 		}
 	}

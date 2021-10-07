@@ -128,6 +128,10 @@
         header {
             margin-bottom: 14rem;
         }
+
+        .blob {
+            left: 29rem;
+        }
     }
 
     @media only screen and (min-width: 1366px) and (min-height: 1024px) {
