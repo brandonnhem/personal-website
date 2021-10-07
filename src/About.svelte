@@ -167,7 +167,8 @@
         }
 
         .about-me {
-            margin-left: 11rem;
+            margin-left: 5rem;
+            width: 30rem;
         }
 
         .blob {
@@ -208,8 +209,8 @@
 
     @media only screen and (min-width: 1440px) {
         .about-me {
-            margin-left: 33rem;
-            width: 28rem;
+            margin-left: 22rem;
+            width: 39rem;
         }
 
         p {
@@ -219,7 +220,8 @@
 
     @media only screen and (min-width: 1632px) and (min-height: 939px) {
         .about-me {
-            margin-left: 45rem;
+            margin-left: 23rem;
+            width: 48rem;
         }
     }
 </style>

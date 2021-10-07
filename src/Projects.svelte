@@ -410,7 +410,7 @@
         }
 
         .cta-btn {
-            margin: 0.8125rem 2rem 1rem 54.875rem;
+            margin: 0.8125rem 2rem 1rem 52.875rem;
             border-radius: 2rem;
             padding: 0.8rem;
         }
@@ -430,7 +430,7 @@
         }
 
         .cta-btn {
-            margin: 0.8125rem 2rem 1rem 66.875rem;
+            margin: 0.8125rem 2rem 1rem 64.875rem;
         }
 
         .projects {

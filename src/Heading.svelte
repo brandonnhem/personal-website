@@ -92,7 +92,7 @@
 
         .blob {
             top: -12rem;
-            left: 20rem;
+            left: 22rem;
         }
     }
 
@@ -147,7 +147,7 @@
 
     @media only screen and (min-width: 1440px) {
         header {
-            padding: 5rem 13rem;
+            padding: 5rem 13rem 0;
         }
 
         .intro {
