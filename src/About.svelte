@@ -121,8 +121,8 @@
         }
 
         .about-me {
-            margin-left: 15.25rem;
-            width: 24rem;
+            margin-left: 3.25rem;
+            width: 36rem;
         }
 
         .blob {
