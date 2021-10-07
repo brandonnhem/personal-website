@@ -90,6 +90,20 @@
 		}
 	}
 
+	@media only screen and (min-width: 540px) and (min-height: 720px) {
+		.blob {
+			top: 23rem;
+    		left: 30rem;
+		}
+	}
+	
+	@media only screen and (min-width: 720px) and (min-height: 540px) {
+		.blob {
+			top: 28rem;
+			left: 41rem;
+		}
+	}
+
 	@media only screen and (min-width: 768px) {
 		.blob {
 			top: 31rem;

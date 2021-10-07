@@ -169,6 +169,48 @@
         }
     }
 
+    @media only screen and (min-width: 540px) and (min-height: 720px) {
+        #big-wave {
+            display: block;
+            position: absolute;
+            top: -1.5rem;
+            z-index: -1;
+        }
+
+        #wave {
+            display: none;
+        }
+
+        .projects {
+            padding: 1.5rem 2rem 1rem;
+        }
+
+        .cta-btn {
+            margin: 0.8125rem 2rem 1rem 22.0625rem;
+        }
+    }
+
+    @media only screen and (min-width: 720px) and (min-height: 540px) {
+        #big-wave {
+            display: block;
+            position: absolute;
+            top: -2rem;
+            z-index: -1;
+        }
+
+        #wave {
+            display: none;
+        }
+
+        .projects {
+            padding: 1.5rem 2rem 1rem;
+        }
+
+        .cta-btn {
+            margin: 0.8125rem 2rem 1rem 31.0625rem;
+        }
+    }
+
     @media only screen and (min-width: 768px) {
         #big-wave {
             display: block;

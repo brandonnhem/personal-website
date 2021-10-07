@@ -2,7 +2,7 @@
     import SectionTitle from './components/SectionTitle.svelte';
 
     let svgSize = 40;
-    if (window.innerWidth >= 768 && window.innerWidth < 1024) {
+    if (window.innerWidth >= 540 && window.innerWidth < 1024) {
         svgSize = 60;
     } else if (window.innerWidth >= 1024) {
         svgSize = 70;
@@ -42,6 +42,18 @@
         flex-direction: row;
         justify-content: space-evenly;
         margin: 1.375rem 0 0 0;
+    }
+
+    @media only screen and (min-width: 540px) and (min-height: 720px) {
+        .contact {
+            padding: 2rem;
+        }
+    }
+    
+    @media only screen and (min-width: 720px) and (min-height: 540px) {
+        .contact {
+            padding: 2rem;
+        }
     }
 
     @media only screen and (min-width: 768px) {

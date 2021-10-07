@@ -65,6 +65,27 @@
         }
     }
 
+    @media only screen and (min-width: 540px) and (min-height: 720px) {
+        .about {
+            padding: 3rem 2rem;
+        }
+
+        .about-me {
+            margin-left: 10.8rem;
+        }
+    }
+    
+    @media only screen and (min-width: 720px) and (min-height: 540px) {
+        .about {
+            padding: 3rem 2rem;
+        }
+
+        .about-me {
+            width: 32.1875rem;
+            margin-left: 6rem;
+        }
+    }
+
     @media only screen and (min-width: 768px) {
         .about {
             padding: 3rem 3rem 0;

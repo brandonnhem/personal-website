@@ -4,7 +4,7 @@
 
 
     let svgSize = 50;
-    if (window.innerWidth >= 768 && window.innerWidth < 1024) {
+    if (window.innerWidth >= 720 && window.innerWidth < 1024) {
         svgSize = 70;
     } else if(window.innerWidth >= 1024) {
         svgSize = 80;
@@ -232,6 +232,45 @@
     @media only screen and (min-width: 414px) and (min-height: 736px) {
         .advanced-col, .intermediate-col, .beginner-col {
             margin-left: 6rem;
+        }
+    }
+
+    @media only screen and (min-width: 540px) and (min-height: 720px) {
+        .experience {
+            padding: 0 2rem 2rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        .advanced-col, .intermediate-col, .beginner-col {
+            margin-left: 12rem;
+        }
+
+        .divider {
+            left: 10.75rem;
+        }
+    }
+
+    @media only screen and (min-width: 720px) and (min-height: 540px) {
+        .experience {
+            padding: 0 2rem 2rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        .advanced-col, .intermediate-col, .beginner-col {
+            margin-left: 9rem;
+            column-gap: 6.5rem;
+        }
+
+        .divider {
+            left: 9.75rem;
+            top: 5.5rem;
+            transform: scale(1.5);
         }
     }
 
