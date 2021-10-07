@@ -34,9 +34,32 @@
         transform: scale(1.5) rotate(38deg);
     }
 
+    @media only screen and (min-width: 280px) and (min-height: 653px) {
+        .intro {
+            margin: 6rem 2rem 1rem;
+        }
+
+        .blob {
+            top: -10.25rem;
+            left: 11rem;
+        }
+    }
+
+    @media only screen and (min-width: 512px) and (min-height: 717px) {
+        .blob { 
+            left: 17rem;
+        }
+    }
+
     @media only screen and (min-width: 540px) and (min-height: 720px) {
         .blob {
             left: 17rem;
+        }
+    }
+
+    @media only screen and (min-width: 717px) and (min-height: 512px) {
+        .blob {
+            left: 24rem;
         }
     }
 

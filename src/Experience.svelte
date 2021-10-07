@@ -4,7 +4,7 @@
 
 
     let svgSize = 50;
-    if (window.innerWidth >= 720 && window.innerWidth < 1024) {
+    if (window.innerWidth >= 717 && window.innerWidth < 1024) {
         svgSize = 70;
     } else if(window.innerWidth >= 1024) {
         svgSize = 80;
@@ -214,13 +214,41 @@
         }
     }
 
-    @media only screen and (min-width: 360px) {
+    @media only screen and (min-width: 280px) and (min-height: 653px) {
         .advanced-col, .intermediate-col, .beginner-col {
-            column-gap: 0.5rem;
+            margin-left: 0;
+        }
+
+        .advanced, .intermediate, .beginner {
+            flex-direction: column;
+        }
+
+        h3 {
+            margin-bottom: 2rem;
+        }
+
+        .divider {
+            display: none;
         }
     }
 
-    @media only screen and (min-width: 375px) {
+    @media only screen and (min-width: 360px) {
+        .advanced-col, .intermediate-col, .beginner-col {
+            column-gap: 0.8rem;
+            margin-left: 5rem;
+        }
+
+        .advanced, .intermediate, .beginner {
+            flex-direction: row;
+        }
+
+        h3 {
+            margin-bottom: 0;
+        }
+
+        .divider {
+            display: block;
+        }
     }
 
     @media only screen and (min-width: 411px) {
@@ -232,6 +260,24 @@
     @media only screen and (min-width: 414px) and (min-height: 736px) {
         .advanced-col, .intermediate-col, .beginner-col {
             margin-left: 6rem;
+        }
+    }
+
+    @media only screen and (min-width: 512px) and (min-height: 717px) {
+        .experience {
+            padding: 0 2rem 2rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        .advanced-col, .intermediate-col, .beginner-col {
+            margin-left: 11rem;
+        }
+
+        .divider {
+            left: 10.75rem;
         }
     }
 
@@ -250,6 +296,27 @@
 
         .divider {
             left: 10.75rem;
+        }
+    }
+
+    @media only screen and (min-width: 717px) and (min-height: 512px) {
+        .experience {
+            padding: 0 2rem 2rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        .advanced-col, .intermediate-col, .beginner-col {
+            margin-left: 12rem;
+            column-gap: 4.5rem;
+        }
+
+        .divider {
+            left: 9.75rem;
+            top: 5.5rem;
+            transform: scale(1.5);
         }
     }
 

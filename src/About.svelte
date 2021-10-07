@@ -43,6 +43,12 @@
         margin-left: 2.4375rem;
     }
 
+    @media only screen and (min-width: 280px) and (min-height: 653px) {
+        .about-me {
+            width: 10.3rem;
+        }
+    }
+
     /* GALAXY S5 */
     @media only screen 
            and (device-width: 360px)
@@ -65,6 +71,17 @@
         }
     }
 
+    @media only screen and (min-width: 512px) and (min-height: 717px) {
+        .about {
+            padding: 3rem 2rem;
+        }
+
+        .about-me {
+            margin-left: 3.8rem;
+            width: 21.3rem;
+        }
+    }
+
     @media only screen and (min-width: 540px) and (min-height: 720px) {
         .about {
             padding: 3rem 2rem;
@@ -72,6 +89,17 @@
 
         .about-me {
             margin-left: 10.8rem;
+        }
+    }
+
+    @media only screen and (min-width: 717px) and (min-height: 512px) {
+        .about {
+            padding: 3rem 2rem;
+        }
+
+        .about-me {
+            width: 34.1875rem;
+            margin-left: 4rem;
         }
     }
     
