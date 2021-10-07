@@ -88,7 +88,8 @@
         }
 
         .about-me {
-            margin-left: 10.8rem;
+            margin-left: 3.8rem;
+            width: 23.3rem;
         }
     }
 
