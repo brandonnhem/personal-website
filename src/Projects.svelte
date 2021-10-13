@@ -36,6 +36,10 @@
                           githubLink="https://github.com/brandonnhem/interactive-pricing-component-challenge"
                           liveLink="https://interactive-pricing-component-challenge.vercel.app/" 
                           backgroundLink="/images/interactive_pricing.png" />
+            <ProjectSlide projectName="Landing Page"
+                          githubLink="https://github.com/brandonnhem/type-master-landing-page"
+                          liveLink="https://brandonnhem.github.io/type-master-landing-page/" 
+                          backgroundLink="/images/typemaster.png" />
             <ProjectSlide projectName="Simon Game" 
                           githubLink="https://github.com/brandonnhem/SimonGame"
                           liveLink="https://brandonnhem.github.io/SimonGame/" 
