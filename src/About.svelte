@@ -10,7 +10,7 @@
         </svg>
     </div>
     <div class="about-me">
-        <p>I’m a Comp Sci grad from Cal State Long Beach. I enjoy programming and creating apps. I’d love to be part of a team where I can apply my skills and challenge myself.</p>
+        <p>I’m a Computer Science graduate from Cal-State Long Beach. I enjoy programming and creating apps. I’d love to be part of a team where I can apply my skills and challenge myself.</p>
         <br>
         <p>I'm well versed in a handful of languages, but consider myself a backend engineer. Currently working on refining my frontend skills so that I can become a fullstack engineer.</p>
     </div>
